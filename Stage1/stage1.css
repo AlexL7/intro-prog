@@ -1,0 +1,51 @@
+.body {
+  background-color: purple;
+  font-family:Arial; /* Keep the font of the page the same*/
+}
+
+.nav {
+  color: black;
+}
+
+.lesson{
+  border-radius: 25px;
+  padding: 15px;
+  max-width: 800px;
+
+}
+
+.title{
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  background-color:#217;
+
+}
+
+.subcat{
+  margin:15px;
+  color:#217;
+  background-color: pink;
+
+}
+
+.notes{
+  margin: 15px;
+  color:black;
+  background-color: white;
+  border-radius:5px;
+
+
+
+}
+.image{
+  -webkit-box-sizing:border-box; /* Using browser specific prefixies */
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing: border-box;
+  max-width: 300px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

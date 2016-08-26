@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Udacity - Stage 1</title>
+    <link rel="stylesheet" type="text/css" href="stage1.css"> <!-- linking html Document to css file -->
+    <title> Project - Stage 1</title>
     <meta charset="UTF-8"> <!-- Helps the brower read special characters -->
   </head>
   <body>
+
+    <div class="nav">
+      <h1><b>Navigation</b></h1>
+        <ol>
+            <li><a href="#lesson1">LESSON 1: Introdcution</a></li>
+            <li><a href="#lesson2">LESSON 2: Web Page </a></li>
+            <li><a href="#lesson3">LESSON 3: More CS</a>
+        </ol>
+
+    </div>
+
   <div class="lesson"> <!-- box around each lesson -->
-    <div class="title"><u>LESSON 1: Introduction </u></div>
+    <div id="lesson1" class="title"><u>LESSON 1: Introduction </u></div>
 
      <div class="subcat"> <!-- Attribute for subcategory heading-->
-        <h1><b>Web Basics</b></h1>
+        <h2><b>Web Basics</b></h2>
      </div>
+     <div class="image"><img src="image1.jpeg" alt="image of a globe"></div> <!-- placing image in HTML doc -->
 
     <div class ="notes"> <!-- Smaller box will divide each subcatergory into their own box and attribute for notes-->
       <p> The majority of the web is made up of <b>HTML</b> connected together via hyperlinks</p>
@@ -18,7 +31,7 @@
       <p>Servers are computers that host files and uses HTTP for communication between the internet and other computers.</p>
     </div>
     <div class="subcat">
-      <h1><b> HTML Overview </b></h1>
+      <h2><b> HTML Overview </b></h2>
     </div>
 
     <div class="notes" >
@@ -28,10 +41,10 @@
     </div>
   </div>
     <div class="lesson">
-      <div class="title"><u>LESSON 2: Web Page </u></div>
+      <div id="lesson2" class="title"><u>LESSON 2: Web Page </u></div>
 
       <div class="subcat">
-       <h1><b>HTML & Structure</b></h1>
+       <h2><b>HTML & Structure</b></h2>
       </div>
         <div class="notes">
          <p><b> Front End Development</b><p></p>
@@ -42,7 +55,7 @@
             <p> HTML files are the main structure of websites, and <em>CSS</em> is used in style. Javascript is responsible for the interactive components that change the elements of the site. <br> Website browser such as <a href="https://www.google.com/chrome/">Google chrome</a> have <b>development tools</b> to help see the structure of the website. Through exploring the tools we can see that all the elements are rectangular and all the text in the file is shown on the webpage.</p>
        </div>
     <div class="subcat">
-      <h1><b>CSS & Style</b></h1>
+      <h2><b>CSS & Style</b></h2>
     </div>
       <div class="notes">
         <p><b>Style and Boxes</b></p>
@@ -50,11 +63,12 @@
       </div>
 </div>
   <div class="lesson">
-    <div class="title"><u>LESSON 3: More CS </u></div>
+    <div  id="lesson3" class="title"><u>LESSON 3: More CS </u></div>
 
       <div class="subcat">
-       <h1><b>More CSS </b></h1>
+       <h2><b>More CSS </b></h2>
       </div>
+        <div class="image"><img src="image2.png" alt="logo for CSS"></div>
         <div class="notes">
            <p><b>CSS - Breakdown </b></p>
             <p>When writing CSS it is broken down into 4 main components. Starts with the <b>selector</b> which is used to target the elements that are assigned to a class or attribute. Within the selector there is a <b>declaration</b> which is divided into the <b>property</b> and <b>value</b> of that property.<br>When applying a selector it will apply the same declarations to all the similar tags within the HTML document. Another important part is to apply prefixes such as <b>webkit,moz,ms</b> so that the CSS style will work across different browsers.</p>
