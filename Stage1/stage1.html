@@ -1,88 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="stage1.css"> <!-- linking html Document to css file -->
-    <title> Project - Stage 1</title>
-    <meta charset="UTF-8"> <!-- Helps the brower read special characters -->
-  </head>
-  <body>
-
-    <div class="nav">
-      <h1><b>Navigation</b></h1>
+<head>
+    <link href="stage1.css" rel="stylesheet" type="text/css">
+    <!-- linking html Document to css file -->
+    <title>Project - Stage 1</title>
+    <meta charset="UTF-8"><!-- Helps the brower read special characters -->
+</head>
+<body>
+    <nav>
+        <h1><b>Navigation</b></h1>
         <ol>
-            <li><a href="#lesson1">LESSON 1: Introdcution</a></li>
-            <li><a href="#lesson2">LESSON 2: Web Page </a></li>
-            <li><a href="#lesson3">LESSON 3: More CS</a>
+            <li>
+                <a href="#lesson1">LESSON 1: Introdcution</a>
+            </li>
+            <li>
+                <a href="#lesson2">LESSON 2: Web Page</a>
+            </li>
+            <li>
+                <a href="#lesson3">LESSON 3: More CS</a>
+            </li>
         </ol>
-
-    </div>
-
-  <div class="lesson"> <!-- box around each lesson -->
-    <div id="lesson1" class="title"><u>LESSON 1: Introduction </u></div>
-
-     <div class="subcat"> <!-- Attribute for subcategory heading-->
-        <h2><b>Web Basics</b></h2>
-     </div>
-     <div class="image"><img src="image1.jpeg" alt="image of a globe"></div> <!-- placing image in HTML doc -->
-
-    <div class ="notes"> <!-- Smaller box will divide each subcatergory into their own box and attribute for notes-->
-      <p> The majority of the web is made up of <b>HTML</b> connected together via hyperlinks</p>
-      <p> The main components of the Web consist of : <br> - Me <br> - Internet <br> - Computers <br> - Servers <br>
-      <p>Servers are computers that host files and uses HTTP for communication between the internet and other computers.</p>
-    </div>
-    <div class="subcat">
-      <h2><b> HTML Overview </b></h2>
-    </div>
-
-    <div class="notes" >
-     <p> HTML files contain <em>elements</em> which make up the content of the document and they are surround by <b>tags</b>. Tags can be used to modify the formatting of the element for example using <b>bold</b> or <em>italic</em> text.<p>HTML attributes are tools to add links and images into the document. href are used to add a URL and src are used for images. More can be found at this <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/485084170923#">link</a>.
-
-      <p>HTML always follow a basic structure, starting with !DOCTYPE indicating it is an HTML file, followed by a head usually containing a title and then followed by a body with the bulk of the content.</p>
-    </div>
-  </div>
+    </nav>
     <div class="lesson">
-      <div id="lesson2" class="title"><u>LESSON 2: Web Page </u></div>
-
-      <div class="subcat">
-       <h2><b>HTML & Structure</b></h2>
-      </div>
+        <!-- box around each lesson -->
+        <div class="title" id="lesson1">
+            <h1>LESSON 1: Introduction</h1>
+        </div>
+        <div class="image"><img alt="image of a globe" src="image1.jpeg"></div>
+        <!-- placing image in HTML doc -->
+        <h2>Web Basics</h2>
         <div class="notes">
-         <p><b> Front End Development</b><p></p>
-          <p>- Front end web development you get immediate feedback , because you we can see changes made in the code directly effect the webpage you’re making.<br>-The 3 primary languages front-end developers use are <b>HTML</b>,<b> CSS</b> and <b>Javascript</b>.</p>
-         </div>
-       <div class="notes">
-          <p><b>Exploring the Web </b></p>
-            <p> HTML files are the main structure of websites, and <em>CSS</em> is used in style. Javascript is responsible for the interactive components that change the elements of the site. <br> Website browser such as <a href="https://www.google.com/chrome/">Google chrome</a> have <b>development tools</b> to help see the structure of the website. Through exploring the tools we can see that all the elements are rectangular and all the text in the file is shown on the webpage.</p>
-       </div>
-    <div class="subcat">
-      <h2><b>CSS & Style</b></h2>
+            <!-- Smaller box will divide each subcatergory into their own box and attribute for notes-->
+            <p>The majority of the web is made up of <b>HTML</b> connected
+            together via hyperlinks</p>
+            <p>The main components of the Web consist of :<br>
+            - Me<br>
+            - Internet<br>
+            - Computers<br>
+            - Servers<br></p>
+            <p>Servers are computers that host files and uses HTTP for
+            communication between the internet and other computers.</p>
+        </div>
+        <h2>HTML Overview</h2>
+        <div class="notes">
+            <p>HTML files contain <em>elements</em> which make up the content
+            of the document and they are surround by <b>tags</b>. Tags can be
+            used to modify the formatting of the element for example using
+            <b>bold</b> or <em>italic</em> text.</p>
+            <p>HTML attributes are tools to add links and images into the
+            document. href are used to add a URL and src are used for images.
+            More can be found at this <a href=
+            "https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/485084170923#">
+            link</a>.</p>
+            <p>HTML always follow a basic structure, starting with !DOCTYPE
+            indicating it is an HTML file, followed by a head usually
+            containing a title and then followed by a body with the bulk of the
+            content.</p>
+        </div>
     </div>
-      <div class="notes">
-        <p><b>Style and Boxes</b></p>
-          <p> HTML is used for structure the same way <b>CSS</b> is used for styling and formatting a webpage. Specifically CSS changes how an element looks through the either the <span style="color:red">colour</span>, background,font size, border, margin etc...<br> Tags surround elements and have different functions and an important one for formatting is <b>div</b>. Div creates an imaginary box around an element and can give a class attribute which works as a label. </p>
-      </div>
-</div>
-  <div class="lesson">
-    <div  id="lesson3" class="title"><u>LESSON 3: More CS </u></div>
-
-      <div class="subcat">
-       <h2><b>More CSS </b></h2>
-      </div>
-        <div class="image"><img src="image2.png" alt="logo for CSS"></div>
+    <div class="lesson">
+        <div class="title" id="lesson2">
+            <h1>LESSON 2: Web Page</h1>
+        </div>
+        <h2>HTML & Structure</h2>
         <div class="notes">
-           <p><b>CSS - Breakdown </b></p>
-            <p>When writing CSS it is broken down into 4 main components. Starts with the <b>selector</b> which is used to target the elements that are assigned to a class or attribute. Within the selector there is a <b>declaration</b> which is divided into the <b>property</b> and <b>value</b> of that property.<br>When applying a selector it will apply the same declarations to all the similar tags within the HTML document. Another important part is to apply prefixes such as <b>webkit,moz,ms</b> so that the CSS style will work across different browsers.</p>
-
+            <p><b>Front End Development</b></p>
+            <p>- Front end web development you get immediate feedback , because
+            you we can see changes made in the code directly effect the webpage
+            you’re making.<br>
+            -The 3 primary languages front-end developers use are <b>HTML</b>,
+            <b>CSS</b> and <b>Javascript</b>.</p>
         </div>
         <div class="notes">
-        <p><b>The Box Model</b></p>
-          <p>
-            HTML documents are always organised into boxes and using CSS we can manipulate to obtain our desired outcome. Boxes have many properties such as the margin, border padding and content. Using a box-sizing declaration can help keep the box the same size even if the page changes.<br>Boxes can be changed depending to pixi number or as a percentage to the page, it is important to set the appropriate parameters depending on the wanted outcome of the box.
-          </p>
-
+            <p><b>Exploring the Web</b></p>
+            <p>HTML files are the main structure of websites, and <em>CSS</em>
+            is used in style. Javascript is responsible for the interactive
+            components that change the elements of the site.<br>
+            Website browser such as <a href=
+            "https://www.google.com/chrome/">Google chrome</a> have
+            <b>development tools</b> to help see the structure of the website.
+            Through exploring the tools we can see that all the elements are
+            rectangular and all the text in the file is shown on the
+            webpage.</p>
         </div>
-
-</div>
-
-  </body>
+        <h2>CSS & Style</h2>
+        <div class="notes">
+            <p><b>Style and Boxes</b></p>
+            <p>HTML is used for structure the same way <b>CSS</b> is used for
+            styling and formatting a webpage. Specifically CSS changes how an
+            element looks through the either the <span style=
+            "color:red">colour</span>, background,font size, border, margin
+            etc...<br>
+            Tags surround elements and have different functions and an
+            important one for formatting is <b>div</b>. Div creates an
+            imaginary box around an element and can give a class attribute
+            which works as a label.</p>
+        </div>
+    </div>
+    <div class="lesson">
+        <div class="title" id="lesson3">
+            <h1>LESSON 3: More CS</h1>
+        </div>
+        <div class="image"><img alt="logo for CSS" src="image2.png"></div>
+        <h2>More CSS</h2>
+        <div class="notes">
+            <p><b>CSS - Breakdown</b></p>
+            <p>When writing CSS it is broken down into 4 main components.
+            Starts with the <b>selector</b> which is used to target the
+            elements that are assigned to a class or attribute. Within the
+            selector there is a <b>declaration</b> which is divided into the
+            <b>property</b> and <b>value</b> of that property.<br>
+            When applying a selector it will apply the same declarations to all
+            the similar tags within the HTML document. Another important part
+            is to apply prefixes such as <b>webkit,moz,ms</b> so that the CSS
+            style will work across different browsers.</p>
+        </div>
+        <div class="notes">
+            <p><b>The Box Model</b></p>
+            <p>HTML documents are always organised into boxes and using CSS we
+            can manipulate to obtain our desired outcome. Boxes have many
+            properties such as the margin, border padding and content. Using a
+            box-sizing declaration can help keep the box the same size even if
+            the page changes.<br>
+            Boxes can be changed depending to pixi number or as a percentage to
+            the page, it is important to set the appropriate parameters
+            depending on the wanted outcome of the box.</p>
+        </div>
+    </div>
+</body>
 </html>
